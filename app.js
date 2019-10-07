@@ -12,12 +12,12 @@ mongoose.connect(config.database);
 
 //mongoose connection check
 mongoose.connection.on('connected', () => {
-    console.log('Connected to local database');
-})
+    console.log('Connected to local database: '+config.database);
+});
 
 mongoose.connection.on('error', (err) => {
     console.log('Database error: '+err);
-})
+});
 
 const app = express();
 
