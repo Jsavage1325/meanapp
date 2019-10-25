@@ -10,5 +10,9 @@ To start the app:-
 
 npm start
 
+
+Please not you must have MongoDB running on localhost port 27017 in order to connect the database to the backend.
+
+
 This should work however some of the Angular dependencies do seem to be a bit fickle - in particular the flash messages module. 
 Message me if you are experiencing any issues in running the program.
